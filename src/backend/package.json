@@ -1,0 +1,27 @@
+{
+  "name": "task-manager",
+  "version": "1.0.0",
+  "description": "This is an api using the Hono Framework ",
+  "scripts": {
+    "dev": "tsx watch infrastructure/api/api.ts",
+    "build": "tsc"
+  },
+  "keywords": [
+    "hono"
+  ],
+  "author": "Felipe da Silva Santos",
+  "license": "ISC",
+  "dependencies": {
+    "@hono/node-server": "^1.12.0",
+    "hono": "^4.5.2",
+    "pg": "^8.12.0",
+    "uuid": "^10.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/pg": "^8.11.6",
+    "@types/uuid": "^10.0.0",
+    "tsx": "^4.7.1",
+    "typescript": "^5.5.4"
+  }
+}

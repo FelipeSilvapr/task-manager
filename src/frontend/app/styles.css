@@ -1,0 +1,143 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: #333;
+  text-align: center;
+  margin: 20px 0;
+}
+
+p {
+  margin: 10px 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #3498db;
+}
+
+/* Container */
+.container {
+  width: 80%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+/* Form Styles */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input[type="text"],
+input[type="hidden"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+}
+
+button {
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background: #3498db;
+  color: #fff;
+  font-size: 16px;
+}
+
+button[type="submit"] {
+  background: #2ecc71;
+}
+
+button[type="button"],
+button[type="submit"] {
+  flex: 1;
+}
+
+button:hover {
+  background: #2980b9;
+}
+
+button[type="submit"]:hover {
+  background: #27ae60;
+}
+
+/* List Styles */
+ul {
+  padding: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+li:last-child {
+  border-bottom: none;
+}
+
+li div {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+li form {
+  display: flex;
+  gap: 10px;
+}
+
+/* Specific Page Styles */
+.lists-page h1 {
+  color: #3498db;
+}
+
+.list-page h1 {
+  color: #2ecc71;
+}
+
+.error {
+  color: red;
+  text-align: center;
+}
+
+/* Link Styles */
+.link {
+  display: inline-block;
+  margin-top: 20px;
+  color: #3498db;
+  border: 1px solid #3498db;
+  padding: 10px 20px;
+  border-radius: 4px;
+}
+
+.link:hover {
+  background: #3498db;
+  color: #fff;
+}
+
+.edit-buttons {
+  display: flex;
+  gap: 10px;
+}

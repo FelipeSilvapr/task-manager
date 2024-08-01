@@ -1,0 +1,110 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* General Styles */
+body {
+  @apply font-sans bg-gray-100 text-gray-800 m-0 p-0;
+}
+
+h1 {
+  @apply text-3xl text-center my-6;
+}
+
+p {
+  @apply my-2;
+}
+
+ul {
+  @apply list-none p-0;
+}
+
+a {
+  @apply no-underline text-blue-600;
+}
+
+/* container */
+.container {
+  @apply w-full h-screen p-6 bg-white shadow-md rounded-lg;
+}
+/* Form Styles */
+form {
+  @apply flex flex-col gap-4;
+}
+
+input[type="text"],
+input[type="hidden"] {
+  @apply p-3 border border-gray-300 rounded w-full;
+}
+
+button {
+  @apply p-3 border-none rounded cursor-pointer text-white text-lg;
+}
+
+button[type="submit"] {
+  @apply bg-green-500 hover:bg-green-600;
+}
+
+button[type="button"],
+button[type="submit"] {
+  @apply flex-1;
+}
+
+button {
+  @apply bg-blue-700;
+}
+
+button:hover {
+  @apply bg-blue-900;
+}
+
+button[type="submit"]:hover {
+  @apply bg-green-700;
+}
+
+/* List Styles */
+ul {
+  @apply p-0;
+}
+
+li {
+  @apply flex justify-between items-center p-3 border-b border-gray-300;
+}
+
+li:last-child {
+  @apply border-b-0;
+}
+
+li div {
+  @apply flex gap-4 items-center;
+}
+
+li form {
+  @apply flex gap-4;
+}
+
+/* Specific Page Styles */
+.lists-page h1 {
+  @apply text-blue-600;
+}
+
+.list-page h1 {
+  @apply text-green-600;
+}
+
+.error {
+  @apply text-red-500 text-center;
+}
+
+/* Link Styles */
+.link {
+  @apply inline-block mt-5 text-blue-600 border border-blue-600 p-3 rounded-lg;
+}
+
+.link:hover {
+  @apply bg-blue-600 text-white;
+}
+
+.edit-buttons {
+  @apply flex gap-4;
+}
