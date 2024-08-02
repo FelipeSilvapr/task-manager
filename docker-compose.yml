@@ -2,7 +2,7 @@ services:
   db:
     image: postgres:latest
     container_name: postgres_db
-    restart: always
+    restart: no
     env_file:
       - .env
     ports:
