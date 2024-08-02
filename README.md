@@ -1,6 +1,6 @@
 # Task Manager
 
-This project is a task manager application that consists of a backend and a frontend. The backend is built with Node.js and TypeScript, while the frontend uses React and Tailwind CSS. Docker is used to containerize the application.
+This project is a task manager application that consists of a backend and a frontend. The backend is built with Node.js and TypeScript, while the frontend uses React and Tailwind CSS. Docker is used to containerize the database.
 
 ## Prerequisites
 
